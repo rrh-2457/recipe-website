@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact | Kitchen Corner</title>
+
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- Google Analytics -->
+    <!-- Replace G-XXXXXXXXXX with your Measurement ID -->
+    <!--
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-XXXXXXXXXX');
+    </script>
+    -->
+</head>
+
+<body>
+
+<header>
+
+<h1>Kitchen Corner</h1>
+
+<nav>
+<ul>
+<li><a href="index.html">Home</a></li>
+<li><a href="breakfast.html">Breakfast</a></li>
+<li><a href="lunch.html">Lunch</a></li>
+<li><a href="dinner.html">Dinner</a></li>
+<li><a href="about.html">About</a></li>
+<li><a href="contact.html" class="active">Contact</a></li>
+</ul>
+</nav>
+
+</header>
+
+<section class="recipe-container">
+
+<h1>Contact Us</h1>
+
+<p>
+Have a question, suggestion, or feedback? We'd love to hear from you. Fill out the form below and we'll get back to you as soon as possible.
+</p>
+
+<form onsubmit="return validateForm();">
+
+<label for="name"><strong>Name</strong></label>
+
+<input
+type="text"
+id="name"
+placeholder="Enter your name"
+required>
+
+<label for="email"><strong>Email</strong></label>
+
+<input
+type="email"
+id="email"
+placeholder="Enter your email"
+required>
+
+<label for="message"><strong>Message</strong></label>
+
+<textarea
+id="message"
+placeholder="Write your message here..."
+required></textarea>
+
+<button type="submit">Send Message</button>
+
+</form>
+
+<br>
+
+<a href="index.html" class="btn">Return Home</a>
+
+</section>
+
+<footer>
+
+<p>&copy; 2026 Kitchen Corner. All Rights Reserved.</p>
+
+</footer>
+
+<button id="topBtn"
+onclick="topFunction()"
+style="display:none;position:fixed;bottom:20px;right:20px;padding:12px;">
+Top
+</button>
+
+<script src="js/script.js"></script>
+
+</body>
+</html>
